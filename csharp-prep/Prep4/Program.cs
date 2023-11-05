@@ -28,7 +28,7 @@ class Program
             sum += number;
         }
 
-        Console.WriteLine($"The list added up equals {sum}.");
+        Console.WriteLine($"The sum of the list is {sum}.");
 
         //Find the average of the list
         float average = ((float)sum) / numbers.Count;
